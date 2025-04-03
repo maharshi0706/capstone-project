@@ -1,0 +1,14 @@
+ffmpeg-python
+flask
+flask-restx
+flask-cors
+SoccerNet 
+python-dotenv
+tensorflow
+tensorflow_hub
+tensorflow_datasets
+opencv-python
+moviepy
+ipykernel
+opencv-python
+scikit-learn
