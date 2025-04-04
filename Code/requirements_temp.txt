@@ -1,0 +1,15 @@
+ffmpeg-python
+flask
+flask-restx
+flask-cors
+SoccerNet
+python-dotenv
+tensorflow==2.10.0
+tensorflow_hub
+tensorflow_datasets
+tensorflow-model-optimization==0.7.5
+tf-models-official==2.10.0
+scikit-learn
+opencv-python-headless==4.5.4.60
+moviepy
+ipykernel
