@@ -4,7 +4,7 @@ flask-restx
 flask-cors
 SoccerNet 
 python-dotenv
-tensorflow
+tensorflow-cpu==2.10.0
 tensorflow_hub
 tensorflow_datasets
 opencv-python
@@ -12,3 +12,4 @@ moviepy
 ipykernel
 opencv-python
 scikit-learn
+tensorflow-directml-plugin
