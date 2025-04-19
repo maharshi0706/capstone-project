@@ -8,8 +8,8 @@ from pathlib import Path
 from moviepy.video.io.VideoFileClip import VideoFileClip # type: ignore
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # Capstone project root
-DATASET_DIR = os.path.join(BASE_DIR, "Dataset\LABELS")  # Dataset folder
-OUTPUT_DIR = os.path.join(BASE_DIR,"Dataset","Event_clips")
+DATASET_DIR = os.path.join(BASE_DIR, "Dataset","test_labels")  # Dataset folder
+OUTPUT_DIR = os.path.join(BASE_DIR,"Dataset","TEST_Event_clips")
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 def extract_clip(video_file, start_time, duration, output_file):

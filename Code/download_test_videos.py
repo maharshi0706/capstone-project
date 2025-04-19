@@ -6,7 +6,7 @@ SOCCERNET_PASS = os.environ.get("soccernet_password")
 print(f"PASSWORD:{SOCCERNET_PASS}")
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
-DATASET_DIR = os.path.join(BASE_DIR, "Dataset", "VIDEOS")  
+DATASET_DIR = os.path.join(BASE_DIR, "Dataset", "VIDEOS")
 
 os.makedirs(DATASET_DIR, exist_ok=True)
 
@@ -35,5 +35,9 @@ mySoccerNetDownloader.downloadGames(files=["1_720p.mkv", "2_720p.mkv"], split=["
 # for game in test_games:
 #     print(f"Downloading: {game}")
 #     mySoccerNetDownloader.downloadGame(game, files=video_files)
+# json_files = ["Labels-v2.json"]  # Annotation file
+# print("\nDownloading annotation files...")
+# mySoccerNetDownloader.downloadGames(files=json_files, split=["test"])
+
 
 print("\nDownload complete! Files are saved in:", DATASET_DIR)

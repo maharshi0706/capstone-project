@@ -1,3 +1,5 @@
 Dataset/
 .env
 venv
+test/
+*.mp4
